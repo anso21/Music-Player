@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Music Player</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-11 col-sm-4">
+                <i class="fa fa-music"></i>
+            Music
+            </div>
+            <div class="col-md-1 col-sm-4 count-song">
+                1/5
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row row pad-top-bottom">
+                    <img src="assets/images/covers/default-cover.png" alt="cover" class="cover">
+                </div>
+                <div class="row ">
+                    <div class="volume-field">
+                        <li class="fa fa-volume-down"></li>
+                        <input type="range" name="volume-key" id="volume" class="volume" value="30">
+                        <li class="fa fa-volume-up"></li>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 justify-content-center">
+                <div class="row pad-top-bottom">
+                    <div class="song-title"> 5G </div>
+                </div>
+
+                <div class="row pad-top-bottom">
+                    <div class="song-author">Booba</div>
+                </div>
+
+                <div class="row pad-top-bottom">
+                    <input type="range" name="time" id="time" class="time" value="0">
+                </div>
+
+                <div class="row controls pad-top-bottom">
+                        <div class="col-md-4 col-sm-4 control">
+                            <i class="fa fa-fast-backward previous"></i>
+                        </div>
+                        <div class="col-md-4 col-sm-4 control">
+                            <i class="fa fa-play"></i>
+                        </div>
+                        <div class="col-md-4 col-sm-4 control">
+                            <i class="fa fa-fast-forward next" ></i>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

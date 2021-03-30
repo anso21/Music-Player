@@ -1,0 +1,85 @@
+.container{
+    width: 80%;
+    height: auto;
+    margin: 7%;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.589);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.493);
+    color: white;
+    padding: 20px;
+}
+
+.cover{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 0 20px rgba(143, 126, 126, 0.493);
+
+}
+
+.pad-top-bottom{
+    padding: 20px 0px;
+}
+
+.controls{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.volume-field{
+    margin: auto;
+}
+
+.song-author, .song-title,.controls, .time{
+    margin: auto;
+} 
+
+.volume{
+    width: 200px;
+}
+
+
+.song-title{
+    font-size: 30px;
+}
+
+
+.time{
+    width: 250px;
+
+}
+
+.fa-play{
+    font-size: 30px;
+}
+
+.fa:hover{
+    transform: scale(1.5);
+    transition: transform .5s;
+}
+
+.time, .volume{
+    height: 2px;
+    background-color: aqua;
+}
+
+.anime{
+    animation: myAnime 1s ease-in-out;
+}
+
+@keyframes myAnime{
+    0%{
+        box-shadow: 0 0 0px rgba(170, 57, 57, 0.493);
+    }
+    50%{
+        box-shadow: 0 0 10px rgba(112, 42, 42, 0.493);
+    }
+    75%{
+        box-shadow: 0 0 50px rgba(167, 51, 51, 0.493);
+    }
+    0%{
+        box-shadow: 0 0 0px rgba(172, 49, 49, 0.493);
+    }
+
+}
